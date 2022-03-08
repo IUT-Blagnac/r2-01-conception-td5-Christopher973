@@ -1,7 +1,6 @@
 @startuml
 
 usecase r as "Commencer son travail \n au chantier"
-usercase r as ""
 usecase d as "Déclarer une \n demande de stage"
 
 actor Responsable
