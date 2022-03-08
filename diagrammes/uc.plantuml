@@ -1,0 +1,41 @@
+@startuml
+
+usecase start as "Commencer son \n travail au chantier"
+
+
+usecase specialite as "Donner une spécialitée"
+usecase affecter as "Affecté un artisans à un chantier"
+
+
+usecase debut as "Donner une date de début du chantier"
+usecase fin as "Donner une date de fin du chantier"
+usecase adresse as "Donner une adresse du chantier"
+usecase horaire as "Déclarer un salaire horaire de l'artisan"
+usecase coord as "Donner les coordonées de l'artisan"
+
+actor Artisan
+actor Systeme
+
+'Pour aligner les 2 acteurs :
+Systeme -[hidden]-> debut
+Systeme -[hidden]-> fin
+Systeme -[hidden]-> adresse
+Systeme -[hidden]-> horaire
+Systeme -[hidden]-> coord
+Systeme -[hidden]-> specialite
+Systeme -[hidden]-> affecter
+
+Systeme -[hidden]-> Artisan
+
+Artisan -[hidden]-> start
+
+Systeme -> debut
+Systeme -> fin
+Systeme -> adresse
+Systeme -> horaire 
+Systeme -> coord
+Systeme -> specialite
+Systeme -> affecter
+
+Artisan -> start
+@enduml
