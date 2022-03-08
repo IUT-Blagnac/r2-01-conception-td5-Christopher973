@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="335px" preserveAspectRatio="none" style="width:2276px;height:335px;background:#FFFFFF;" version="1.1" viewBox="0 0 2276 335" width="2276px" zoomAndPan="magnify"><defs/><g><g id="elem_start"><ellipse cx="2164.5305" cy="303.5473" fill="#F1F1F1" rx="105.5305" ry="26.0473" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="2104.0305" y="298.2455">Commencer son</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129" x="2102.0305" y="314.5424">travail au chantier</text></g><g id="elem_specialite"><ellipse cx="1703.3822" cy="179.5764" fill="#F1F1F1" rx="100.8822" ry="22.5764" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="1620.3822" y="182.4231">Donner une spécialitée</text></g><g id="elem_affecter"><ellipse cx="1971.5975" cy="179.3195" fill="#F1F1F1" rx="132.0975" ry="28.8195" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="233" x="1855.0975" y="182.1662">Affecté un artisans à un chantier</text></g><g id="elem_debut"><ellipse cx="157.6907" cy="179.7381" fill="#F1F1F1" rx="151.6907" ry="32.7381" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="274" x="20.6907" y="182.5848">Donner une date de début du chantier</text></g><g id="elem_fin"><ellipse cx="484.6894" cy="179.4379" fill="#F1F1F1" rx="140.1894" ry="30.4379" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="250" x="359.6894" y="182.2846">Donner une date de fin du chantier</text></g><g id="elem_adresse"><ellipse cx="789.2544" cy="179.2509" fill="#F1F1F1" rx="129.2544" ry="28.2509" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="227" x="675.7544" y="182.0976">Donner une adresse du chantier</text></g><g id="elem_horaire"><ellipse cx="1104.2683" cy="179.3537" fill="#F1F1F1" rx="149.7683" ry="32.3537" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="270" x="969.2683" y="182.2003">Déclarer un salaire horaire de l'artisan</text></g><g id="elem_coord"><ellipse cx="1428.7348" cy="179.747" fill="#F1F1F1" rx="139.2348" ry="30.247" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="248" x="1304.7348" y="182.5936">Donner les coordonées de l'artisan</text></g><!--MD5=[11468c77767568c9efff235ac1ebc746]
+entity Artisan--><g id="elem_Artisan"><ellipse cx="2164.5" cy="150" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M2164.5,158 L2164.5,185 M2151.5,166 L2177.5,166 M2164.5,185 L2151.5,200 M2164.5,185 L2177.5,200 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="2139" y="214.4951">Artisan</text></g><!--MD5=[27b2c9d7af39bf6b9aa21552c859041f]
+entity Systeme--><g id="elem_Systeme"><ellipse cx="1104.5" cy="14" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M1104.5,22 L1104.5,49 M1091.5,30 L1117.5,30 M1104.5,49 L1091.5,64 M1104.5,49 L1117.5,64 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="1073" y="78.4951">Systeme</text></g><!--MD5=[0d72623451a1267753e0cae87bb0daf6]
+link Systeme to debut--><!--MD5=[0d72623451a1267753e0cae87bb0daf6]
+link Systeme to debut--><g id="link_Systeme_debut"><path d="M1072.9,46.819 C964.78,55.936 604.296,91.294 310.5,141.5 C292.13,144.639 272.74,148.414 254.127,152.337 " fill="none" id="Systeme-to-debut-1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="248.899,153.447,258.5335,155.4905,253.79,152.4085,256.872,147.665,248.899,153.447" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c6f5bb5061145e946d7576b4a78cc36c]
+link Systeme to fin--><!--MD5=[c6f5bb5061145e946d7576b4a78cc36c]
+link Systeme to fin--><g id="link_Systeme_fin"><path d="M1072.94,49.304 C995.316,63.116 792.918,104.327 625.5,141.5 C608.154,145.351 589.765,149.551 572.153,153.693 " fill="none" id="Systeme-to-fin-1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="567.208,154.86,576.8856,156.6887,572.0747,153.713,575.0504,148.902,567.208,154.86" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8c3cdc5081945f98ef8a6dcfe926df5b]
+link Systeme to adresse--><!--MD5=[8c3cdc5081945f98ef8a6dcfe926df5b]
+link Systeme to adresse--><g id="link_Systeme_adresse"><path d="M1072.82,54.903 C1018.81,75.321 909.771,121.235 843.635,150.991 " fill="none" id="Systeme-to-adresse-1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="838.949,153.105,848.7977,153.0479,843.5062,151.0478,845.5062,145.7563,838.949,153.105" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e8f7d31f42c33d7fa43ea730238f0528]
+link Systeme to horaire--><!--MD5=[e8f7d31f42c33d7fa43ea730238f0528]
+link Systeme to horaire--><g id="link_Systeme_horaire"><path d="M1092.93,81.826 C1091.34,100.514 1091.36,123.061 1092.98,141.678 " fill="none" id="Systeme-to-horaire-1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1093.48,146.818,1096.5886,137.4726,1092.9952,141.8416,1088.6263,138.2482,1093.48,146.818" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d0175e088e5b46a9f313934e523a1b54]
+link Systeme to coord--><!--MD5=[d0175e088e5b46a9f313934e523a1b54]
+link Systeme to coord--><g id="link_Systeme_coord"><path d="M1136.11,61.2 C1186.27,83.878 1284.36,124.675 1353.19,151.674 " fill="none" id="Systeme-to-coord-1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1358.1,153.593,1351.1852,146.5797,1353.4461,151.7651,1348.2607,154.026,1358.1,153.593" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[aaaa70996fabc9e56fb08d8e451c0e1f]
+link Systeme to specialite--><!--MD5=[aaaa70996fabc9e56fb08d8e451c0e1f]
+link Systeme to specialite--><g id="link_Systeme_specialite"><path d="M1136.23,51.304 C1212.24,65.435 1407.4,100.12 1568.5,141.5 C1589.96,147.012 1613.29,154.092 1634.61,160.581 " fill="none" id="Systeme-to-specialite-1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1639.42,162.042,1631.9759,155.5933,1634.6369,160.5852,1629.645,163.2463,1639.42,162.042" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ce9439b7c8e0d6c3b1bbd054d4327131]
+link Systeme to affecter--><!--MD5=[ce9439b7c8e0d6c3b1bbd054d4327131]
+link Systeme to affecter--><g id="link_Systeme_affecter"><path d="M1136.13,48.311 C1235.89,59.127 1548.83,92.445 1805.5,141.5 C1828.35,145.868 1852.94,151.559 1876.11,157.163 " fill="none" id="Systeme-to-affecter-1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1881.03,158.357,1873.235,152.3373,1876.1726,157.1716,1871.3383,160.1092,1881.03,158.357" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0d8a66722fb215fca4a5d0e4573d54f0]
+link Systeme to Artisan--><!--MD5=[bcfb23415ecd159c7ee2ec6f5a1a6f78]
+link Artisan to start--><!--MD5=[bcfb23415ecd159c7ee2ec6f5a1a6f78]
+link Artisan to start--><g id="link_Artisan_start"><path d="M2152.65,217.767 C2151.25,235.2942 2151.48,255.9186 2153.34,272.4311 " fill="none" id="Artisan-to-start-1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2153.96,277.4156,2156.8038,267.9863,2153.3351,272.4548,2148.8666,268.9861,2153.96,277.4156" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ad9007de8fec49db9b037b1ea13b78ff]
+@startuml
+usecase start as "Commencer son \n travail au chantier"
+
+
+usecase specialite as "Donner une spécialitée"
+usecase affecter as "Affecté un artisans à un chantier"
+
+
+usecase debut as "Donner une date de début du chantier"
+usecase fin as "Donner une date de fin du chantier"
+usecase adresse as "Donner une adresse du chantier"
+usecase horaire as "Déclarer un salaire horaire de l'artisan"
+usecase coord as "Donner les coordonées de l'artisan"
+
+actor Artisan
+actor Systeme
+
+'Pour aligner les 2 acteurs :
+Systeme -[hidden]-> debut
+Systeme -[hidden]-> fin
+Systeme -[hidden]-> adresse
+Systeme -[hidden]-> horaire
+Systeme -[hidden]-> coord
+Systeme -[hidden]-> specialite
+Systeme -[hidden]-> affecter
+
+Systeme -[hidden]-> Artisan
+
+Artisan -[hidden]-> start
+
+Systeme -> debut
+Systeme -> fin
+Systeme -> adresse
+Systeme -> horaire 
+Systeme -> coord
+Systeme -> specialite
+Systeme -> affecter
+
+Artisan -> start
+@enduml
+
+@startuml
+usecase start as "Commencer son \n travail au chantier"
+
+
+usecase specialite as "Donner une spécialitée"
+usecase affecter as "Affecté un artisans à un chantier"
+
+
+usecase debut as "Donner une date de début du chantier"
+usecase fin as "Donner une date de fin du chantier"
+usecase adresse as "Donner une adresse du chantier"
+usecase horaire as "Déclarer un salaire horaire de l'artisan"
+usecase coord as "Donner les coordonées de l'artisan"
+
+actor Artisan
+actor Systeme
+
+Systeme -[hidden]-> debut
+Systeme -[hidden]-> fin
+Systeme -[hidden]-> adresse
+Systeme -[hidden]-> horaire
+Systeme -[hidden]-> coord
+Systeme -[hidden]-> specialite
+Systeme -[hidden]-> affecter
+
+Systeme -[hidden]-> Artisan
+
+Artisan -[hidden]-> start
+
+Systeme -> debut
+Systeme -> fin
+Systeme -> adresse
+Systeme -> horaire 
+Systeme -> coord
+Systeme -> specialite
+Systeme -> affecter
+
+Artisan -> start
+@enduml
+
+PlantUML version 1.2022.2(Sat Mar 05 16:30:19 UTC 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
