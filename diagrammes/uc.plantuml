@@ -1,15 +1,29 @@
 @startuml
 
-usecase r as "Commencer son travail \n au chantier"
-usecase d as "Déclarer une \n demande de stage"
+usecase r as "Commencer son \n travail au chantier"
+
+
+usecase d as "Donner une spécialitée"
+usecase d as "Affecté un artisans à un chantier"
+
+
+usecase s as "Donner une date de début du chantier"
+usecase s as "Donner une date de fin du chantier"
+usecase s as "Donner une adresse du chantier"
+usecase s as "Déclarer un salaire horaire de l'artisan"
+usecase s as "Donner les coordonées de l'artisan"
 
 actor Responsable
 actor Entreprise 
+actor Systeme
 
 'Pour aligner les 2 acteurs :
 r -[hidden]-> d
+r -[hidden]-> s
+s -[hidden]-> d
 
 Responsable -> r
 Entreprise -> d
+Systeme -> s
 
 @enduml
