@@ -1,0 +1,16 @@
+@startuml
+
+usecase r as "Commencer son travail \n au chantier"
+usercase r as ""
+usecase d as "Déclarer une \n demande de stage"
+
+actor Responsable
+actor Entreprise 
+
+'Pour aligner les 2 acteurs :
+r -[hidden]-> d
+
+Responsable -> r
+Entreprise -> d
+
+@enduml
