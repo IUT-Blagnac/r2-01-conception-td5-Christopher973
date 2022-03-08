@@ -30,11 +30,11 @@ Ce TP vise à reprendre les diagrammes des UC et les lier avec le diagramme de c
 
 == À propos...
 
-NOM:: DOE
+NOM:: Marie-Angélique
 
-Prénom:: John
+Prénom:: Christopher
 
-Groupe #::
+Groupe #:: 4B
 
 [%interactive]
 - [X] Enseignants
